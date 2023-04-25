@@ -1,6 +1,7 @@
 """Testing functions implementation."""
 import itertools
-from typing import Literal, Optional, Tuple
+from typing import Optional, Tuple
+from typing_extensions import Literal
 
 import numpy as np
 import torch
