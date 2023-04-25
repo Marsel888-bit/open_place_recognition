@@ -3,7 +3,8 @@
 Code adopted from repository: https://github.com/jac99/MinkLocMultimodal, MIT License
 """
 
-from typing import Any, Dict, List, Literal, Sequence, Tuple, Union
+from typing import Any, Dict, List, Sequence, Tuple, Union
+from typing_extensions import Literal
 
 import torch
 from pytorch_metric_learning.distances import CosineSimilarity, LpDistance
